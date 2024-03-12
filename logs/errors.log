@@ -1,0 +1,9 @@
+{"level":"error","message":{"__v":0,"_id":"65c2f7973f74a77710eea658","created_at":"2024-02-07T03:23:03.043Z","email":"florinda@l.com","image":"no_image.png","name":"florinda","nick":"florinda","password":"$2b$10$BsASA2k9RloPoxzlU2zEF.PUlejJ63aiRuf2mIajplpmzdxmEWzI6","role":"role_user","surname":"girafales"}}
+{"level":"info","message":"API node started on: 3900"}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"warn","message":{"__v":0,"_id":"65c2f7973f74a77710eea658","created_at":"2024-02-07T03:23:03.043Z","email":"florinda@l.com","image":"no_image.png","name":"florinda","nick":"florinda","password":"$2b$10$BsASA2k9RloPoxzlU2zEF.PUlejJ63aiRuf2mIajplpmzdxmEWzI6","role":"role_user","surname":"girafales"}}
+{"level":"info","message":"API node started on: 3900"}
+{"level":"info","message":"Connected to MongoDB..."}
+{"level":"error","message":"Error getting users Error getting users","stack":"Error: Error getting users\n    at /Users/luisventura/Development/Personal/luisvent_api/services/web_service.js:9:20\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+{"level":"error","message":"Error getting users Error getting users","stack":"Error: Error getting users\n    at /Users/luisventura/Development/Personal/luisvent_api/services/web_service.js:9:20\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+{"level":"error","message":"Cannot access 'url' before initialization Cannot access 'url' before initialization","stack":"ReferenceError: Cannot access 'url' before initialization\n    at Object.getMetadataFromHtml (/Users/luisventura/Development/Personal/meta_tag_api/services/web_service.js:27:65)\n    at metadata (/Users/luisventura/Development/Personal/meta_tag_api/controllers/web_controller.js:14:33)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
