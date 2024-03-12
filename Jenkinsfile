@@ -60,11 +60,6 @@ pipeline {
     post {
         success {
           echo "running.."
-          bat """
-          cd "site-path"
-          node app.js
-          exit /b 0
-          """
         }
       }
 }
