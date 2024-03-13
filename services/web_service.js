@@ -26,6 +26,7 @@ const getMetadataFromHtml = (pageHtml, pageUrl) => {
     const description = $('meta[property="og:description"]').attr('content') || $('meta[name="description"]').attr('content')
     const url = $('meta[property="og:url"]').attr('content') || $('meta[name="msapplication-starturl"]').attr('content') || pageUrl
     const site_name = $('meta[property="og:site_name"]').attr('content')
+    const author = $('meta[name="author"]').attr('content')
     const site = $('meta[name="twitter:site"]').attr('content')
     const card = $('meta[name="twitter:card"]').attr('content')
     const type = $('meta[property="og:type"]').attr('content')
@@ -53,7 +54,8 @@ const getMetadataFromHtml = (pageHtml, pageUrl) => {
         card: card ?? '',
         superfish: superfish ?? '',
         viewport: viewport ?? '',
-        robots: robots ?? ''
+        robots: robots ?? '',
+        author: author ?? ''
     }
 }
 
