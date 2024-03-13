@@ -9,10 +9,14 @@ const metadata = async (req, res) => {
         return error(res, 'No website');
     }
 
-    const pageHTML = await webService.getPage(url);
+    try {
+        const pageHTML = await webService.getPage(url);
 
-    const metadata = webService.getMetadataFromHtml(pageHTML, url);
-    return success(res, 'URL Metadata', metadata);
+        const metadata = webService.getMetadataFromHtml(pageHTML, url);
+        return success(res, 'URL Metadata', metadata);
+    } catch (e) {
+        return error(res, 'Error getting page metatags');
+    }
 }
 
 module.exports = {
